@@ -30,10 +30,10 @@ public class Exercises {
      * %
      */
     private static void exercise1() {
-    // Oppure un altro metodo -> double mediaMenu = menuList.stream().mapToDouble(Portate::getPrezzo).sum()/menuList.size();
+
         System.out.println("\nExercise 1: ");
 
-        ourNumbers.stream().filter(n->n%2==0).forEach(System.out::println);
+        ourNumbers.stream().filter(n->n%2==0).forEach(System.out::println);//n->System.out.println(n)
 
     }
 
